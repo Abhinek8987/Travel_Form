@@ -1,0 +1,97 @@
+
+     
+@viewport{
+    Width:device-width;
+    max-zoom: 3;
+    user-zoom: fixed;
+
+}
+
+.box3{
+    opacity: 1.0;
+    margin: auto;
+    text-align: center;
+    /* height:60px; */
+
+}
+.box2{
+    margin: auto;
+    text-align: center;
+
+}
+body{
+    background: linear-gradient(90deg, rgba(216,53,204,1) 39%, rgba(13,50,255,1) 82%);
+}
+@media screen and (max-width:800px){
+    body{
+        background: linear-gradient(90deg, rgba(216,149,53,1) 24%, rgba(255,13,208,1) 82%);
+
+    }
+
+    
+}
+button{
+
+    background-color: aqua;
+   
+    opacity:3;
+    cursor: pointer;
+    width:65px;
+    height:30px;
+}
+input [type=file]{
+    margin:4px;
+    font-size: 30px;
+}
+input[type=time]{
+    font-size:20px;
+}
+
+input[type=date]{
+    font-size:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ input[type=text]{
+    
+    font-size:30px;
+    display: inline;
+    margin: 4px;
+}
+.box{
+    font-size: 30px;
+    display: inline;
+}
+p{
+    font-size: 30px;
+}
+textarea[name=Email]{
+    font-size: 30px;
+    margin: 4px;
+}
+input[type=number]{
+    font-size: 30px;
+}
+.address{
+    font-size: 30px;
+    margin: 3px;
+}
+.address1{
+    margin:4px;
+    width: 800px;
+   
+}
+.box{
+    width:800px;
+}
+h1{
+    width:800px;
+    
+background: linear-gradient(90deg, rgba(53,215,216,1) 24%, rgba(255,13,208,1) 82%);
+
+}
+
+
+
